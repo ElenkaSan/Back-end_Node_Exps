@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Play Card</title>
+</head>
+<style>
+  body {
+     text-align: center;
+     background-color: rgb(67, 148, 91);
+   }
+   button:hover {
+    cursor: pointer;
+    background-color: rgb(150, 120, 120);
+  }
+  button {
+    padding: 20px;
+    background-color: rgb(66, 43, 43);
+    color: rgb(69, 243, 0);
+    border-radius: 10px;
+    margin: 2em;
+  }
+  button:active,
+  button:focus {
+    outline: none;
+  }
+  #draw-card {
+    margin-top: 80px;
+  }
+  #draw-card > img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  </style>
+<body>
+  <button>DRAW A CARD!</button>
+  <div id="draw-card"></div>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+</html>
